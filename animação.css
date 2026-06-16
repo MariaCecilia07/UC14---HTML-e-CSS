@@ -1,0 +1,21 @@
+button{
+    color: rgb(0, 0, 0);
+    padding: 100px 200px;
+  transition: 0.3s;
+    background-color: rgb(63, 63, 172);
+    transition: 0.3s;
+    border-radius: 300px;
+}
+
+button:hover {
+    transform: translateY(-20px);
+    background-color: rgb(33, 33, 115);
+ box-shadow: 0 0 30px rgba(27, 19, 105, 0.8);
+}
+body {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    height: 100vh;
+    background-color: rgb(168, 168, 171);
+}
